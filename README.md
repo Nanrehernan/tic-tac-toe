@@ -6,6 +6,10 @@ Tic Tac Toe es un clásico juego de mesa para dos jugadores, donde el objetivo e
 
 Esta versión del juego está desarrollada en JavaScript con un frontend en HTML y CSS. Puedes jugarlo de manera local en tu navegador.
 
+## Prueba el juego
+Prueba el juego accediendo al siguiente enlace [Tic Tac Toe](https://hernangarcete-tic-tac-toe.vercel.app)
+
+
 ## Características
 
 - Jugadores: 2 (👽 y ☠️)
