@@ -1,0 +1,51 @@
+html, body{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.game{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    background-color: #ddd;
+}
+
+.button{
+    position: relative;
+    border: none;
+    background-color: #222;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+
+.button span{
+    position: absolute;
+    inset: 0;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status p{
+    text-align: center;
+    margin-top: 20px;
+}
