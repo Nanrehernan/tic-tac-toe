@@ -1,8 +1,27 @@
-# React + Vite
+# Tic Tac Toe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+Tic Tac Toe es un clásico juego de mesa para dos jugadores, donde el objetivo es alinear tres de sus símbolos (X o O) en una fila, columna o diagonal. El juego se juega en un tablero de 3x3 y puede ser jugado por dos personas en un mismo dispositivo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esta versión del juego está desarrollada en JavaScript con un frontend en HTML y CSS. Puedes jugarlo de manera local en tu navegador.
+
+## Características
+
+- Jugadores: 2 (👽 y ☠️)
+- Tablero 3x3
+- Modo de juego simple, sin complicaciones
+- Visualización clara del estado del juego (quien gana o si hay empate)
+
+## Clonar el Repositorio
+
+Para clonar este repositorio, sigue estos pasos:
+
+1. Abre tu terminal o línea de comandos.
+2. Navega a la carpeta donde deseas clonar el repositorio.
+3. Ejecuta el siguiente comando para clonar el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/tic-tac-toe.git
+   cd tic-tac-toe
+   npm run dev
