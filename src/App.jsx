@@ -4,7 +4,7 @@ import Square from "./Square";
 
 import "./App.css"
 
-const TURNS = { x: "👽", o: "☠️" };
+const TURNS = { x: "❌", o: "⚪" };
 
 const WINNING_COMBINATIONS = [
    [0, 1, 2],
